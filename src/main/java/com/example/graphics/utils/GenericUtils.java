@@ -14,4 +14,14 @@ public class GenericUtils {
 	    
 	    return isInteger;
 	}
+	
+	public static boolean printCanvas(String[][] canvas) {
+		for (int row = 0; row < canvas.length; row++) {
+			for (int col = 0; col < canvas[row].length; col++) {
+				System.out.print(canvas[row][col] + " ");
+			}
+			System.out.println();
+		}
+		return true;
+	}
 }

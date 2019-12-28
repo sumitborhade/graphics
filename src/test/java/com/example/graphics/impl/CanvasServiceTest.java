@@ -1,0 +1,14 @@
+package com.example.graphics.impl;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CanvasServiceTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
